@@ -1,0 +1,74 @@
+.App {
+   text-align: center;
+}
+
+.App-logo {
+   height: 40vmin;
+   pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+   .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+   }
+}
+
+.App {
+   background-color: #46474b;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   font-size: calc(10px + 2vmin);
+   color: white;
+}
+
+.App-link {
+   color: #61dafb;
+}
+a {
+   text-decoration: none;
+   color: #61dafb;
+}
+li {
+   list-style: none;
+}
+/* navbar */
+.navbar ul {
+   display: flex;
+   width: 20em;
+   justify-content: space-around;
+}
+/* chart-donut */
+/* .apexcharts-legend-series span {
+   color: aliceblue !important;
+} */
+
+.chart-container {
+   display: flex;
+   flex-flow: wrap;
+   align-items: center;
+   justify-content: center;
+   padding: 0 2.5em;
+   gap: 2em;
+}
+.graphic-box {
+   background-color: #838383;
+   border-radius: 15px;
+   width: 500px;
+   display: flex;
+   height: 350px;
+   align-items: center;
+   justify-content: center;
+}
+/* codepen */
+
+@keyframes App-logo-spin {
+   from {
+      transform: rotate(0deg);
+   }
+   to {
+      transform: rotate(360deg);
+   }
+}
