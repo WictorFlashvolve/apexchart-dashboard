@@ -14,7 +14,7 @@
 }
 
 .App {
-   background-color: #46474b;
+   background-color: #1b213b;
    min-height: 100vh;
    display: flex;
    flex-direction: column;
@@ -54,7 +54,7 @@ li {
    gap: 2em;
 }
 .graphic-box {
-   background-color: #838383;
+   background-color: #262d47;
    border-radius: 15px;
    width: 500px;
    display: flex;
@@ -63,7 +63,28 @@ li {
    justify-content: center;
 }
 /* codepen */
+tspan {
+   fill: #ffffff;
+}
+.apexcharts-legend-series span {
+   color: #ffffff !important;
+}
+.apexcharts-menu {
+   background-color: #262d47 !important;
+   border-radius: 15px;
+}
 
+.apexcharts-menu-item {
+   color: #ffffff;
+}
+
+.apexcharts-menu-item:hover {
+   background-color: #5768a4 !important;
+}
+
+.apexcharts-series path {
+   fill: #ff9d00c3 !important;
+}
 @keyframes App-logo-spin {
    from {
       transform: rotate(0deg);
