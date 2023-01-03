@@ -46,6 +46,7 @@ li {
 } */
 
 .chart-container {
+   max-width: 1280px;
    display: flex;
    flex-flow: wrap;
    align-items: center;
